@@ -12,7 +12,7 @@ public function onLoad(){
                     $this->getLogger()->info("Plugin Loading");
           }
           public function onEnable(){
-					$this->getServer()->getPluginManager()->registerEvents($this,$this);
+		    $this->getServer()->getPluginManager()->registerEvents($this,$this);
                     $this->getLogger()->info("Enabled Plugin");
           }
           public function onDisable(){
