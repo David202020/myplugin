@@ -11,5 +11,7 @@ commands:
 		description: "get a wand."
 		permission: op
 permissions:
-	wizard.kit
-	
+	wizard.kit:
+    defualt: op
+    description: "get a wand"
+    children:
