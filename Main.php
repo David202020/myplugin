@@ -1,5 +1,6 @@
 <?php
-namespace David202020;
+name: RPKitCMD
+author: David202020;
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\player\PlayerJoinEvent;
 use pocketmine\event\player\PlayerQuitEvent;
