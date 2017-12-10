@@ -6,9 +6,9 @@ author: David2020xD
 load: POSTWORLD
 description: Kits.
 commands:
-	wizard:
-		description: "get a wand."
-		permission: op
+  wizard:
+    description: "get a wand."
+    permission: op
 permissions:
 	wizard.kit:
     default: op
