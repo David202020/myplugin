@@ -1,6 +1,6 @@
 <?php
-name: RPKitCMD
-author: David202020;
+namespace RPKitCMD;
+author David202020;
 use pocketmine\plugin\PluginBase;
 use pocketmine\event\player\PlayerJoinEvent;
 use pocketmine\event\player\PlayerQuitEvent;
@@ -8,7 +8,7 @@ use pocketmine\Player;
 use pocketmine\Server;
 use pocketmine\event\Listener;
 use pocketmine\utils\TextFormat as C;
-class Main extends PluginBase implements Listener{
+class Main extends WFKits implements Listener{
 public function onLoad(){
                     $this->getLogger()->info("Plugin Loading");
           }
