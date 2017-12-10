@@ -10,14 +10,14 @@ use pocketmine\event\Listener;
 use pocketmine\utils\TextFormat as C;
 class Main extends PluginBase implements Listener{
 public function onLoad(){
-                    $this->getLogger()->info("Plugin Loading");
+                    $plugin->getLogger()->info("Plugin Loading");
           }
           public function onEnable(){
-					$this->getServer()->getPluginManager()->registerEvents($this,$this);
-                    $this->getLogger()->info("Enabled Plugin");
+					$plugin->getServer()->getPluginManager()->registerEvents($this,$this);
+                    $plugin->getLogger()->info("Enabled Plugin");
           }
           public function onDisable(){
-                    $this->getLogger()->info("Plugin Disabled");
+                    $plugin->getLogger()->info("Plugin Disabled");
           }
 }
 public function onJoin(PlayerJoinEvent $event){
