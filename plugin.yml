@@ -12,6 +12,6 @@ commands:
 		permission: op
 permissions:
 	wizard.kit:
-    defualt: op
+    default: op
     description: "get a wand"
     children:
